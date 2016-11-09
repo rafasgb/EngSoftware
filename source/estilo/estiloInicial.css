@@ -1,0 +1,212 @@
+@charset 'UTF-8';
+@import 'https://fonts.googleapis.com/css?family=Cabin:500';
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* == Classes == */
+.container{
+    float: left;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+.optionSelected{
+    border-bottom: 3px solid white;
+}
+
+/* == Topo == */
+#topo{
+    height: 30px;
+    padding: 5px 0 5px 0;
+    background-color: #3D8AF7;
+    text-align: center;
+    border-bottom: 1px solid rgba( 0, 0, 0, .5 );
+}
+#topo ul{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+#topo li{
+    cursor: pointer;
+    display: inline;
+    float: left;
+    width: 25%;
+    border-bottom: 3px solid hidden;
+}
+#topo i{
+    font-size: 2em;
+    color: white;
+    padding: 2px 0;
+    margin-top: -3px;
+}
+/* == Fim do Topo == */
+
+/* == Corpo == */
+#corpo ul{
+    margin-top: 8%;
+    position: relative;
+    width: 100%;
+}
+#corpo li{
+    border: 1px solid black;
+    display: inline-block;
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 17pt;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+}
+#corpo li:first-child{
+    margin-left: 9%;
+    margin-right: -2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#corpo li:last-child{
+    margin-right: 9%;
+    margin-left: -3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#corpo li input{
+    display: none;
+}
+
+#corpo li:hover{
+    background-color: #3D8AF7;
+    color: white;
+}
+#corpo select{
+    width: 81%;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 8% 9% 0;
+    font-size: 15pt;
+    padding: 0 5px;
+}
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 8% 9% 0;
+  width: 81%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #2497E3;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #2497E3;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #2497E3;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #2497E3;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-fill-upper {
+  background: #2497E3;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #2497E3;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #2497E3;
+}
+
+#corpo #valor{
+    margin: 4% 34% 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+#corpo button{
+    width: 80%;
+    height: 40px;
+    font-size: 18pt;
+    margin: 8% 10% 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+/* == Fim do Corpo == */
