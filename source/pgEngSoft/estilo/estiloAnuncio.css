@@ -1,0 +1,81 @@
+@charset="UTF-8";
+
+
+
+.divAnuncio{
+	height: 160px;
+	width: 95%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px black;
+	margin: 2.5% auto 0;
+	font-size: 11pt;
+	background-color: rgba( 177, 177, 177, .2);
+}
+
+.imagem{
+	float: left;
+	margin-top: 3px;
+	border-right: 1px solid silver;
+}
+
+.title{
+	text-align: center;
+	font-weight: bolder;
+	margin: 2px auto;
+}
+
+.descricao{
+	float: right;
+	width: 73%;
+	height: 75px;
+	border: 1px solid silver;
+	margin: auto 2px;
+	word-wrap: break-word;
+	font-size: 11pt;
+	text-indent: 5px;
+	padding: 0 1px;
+}
+
+.info{
+	display: inline-block;
+	margin-top: 2px;
+	margin-left: 2px;
+	text-indent: 3px;
+	font-size: 10.5pt;
+}
+.valor{
+	width: 80px;
+}
+.date{
+	width: 130px;
+}
+.tutor{
+	width: 217px;
+}
+.contato{
+	text-indent: 5px;
+}
+
+.btLogin{
+	position: absolute;
+	border: 1px solid black;
+	margin-top: 0px;
+	height: 33px;
+	line-height: 33px;
+	width: 69%;
+	margin-left: 76px;
+	background-color: white;
+	text-align: center;
+	font-size: 13pt;
+	background-color: #1d9d74;
+	color: white;
+}
+
+.fa-users{
+	padding: 47px 5px;
+}
+
+.fa-user{
+	padding: 40px 7px;
+	font-size: 55pt;
+}

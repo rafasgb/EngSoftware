@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+/* == Menu == */
+#corpo a{
+    display: block;
+    border: 1px solid #606060;
+    width: 90%;
+    margin: -1px 5% 0 5%;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    color: black;
+    font-size: 23pt;
+    text-align: left;
+    text-decoration: none;
+}
+#corpo a:first-child{
+    margin-top: 5%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#corpo a:last-child{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#corpo a i{
+    width: 40px;
+    font-size: 30pt;
+    line-height: 60px;
+    border-right: 1px solid black;
+    float: left;
+    padding: 0 10px;
+    margin: 0 10px 0 0;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+/* == Fim do Menu == */

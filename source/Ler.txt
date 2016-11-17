@@ -1,0 +1,2 @@
+A ferramenta foi desenvolvida para o tamanho 320x480 utilizando o resize window para os testes no navegador google chrome.
+O banco de dados para testes segue em anexo.

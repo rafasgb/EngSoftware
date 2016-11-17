@@ -1,0 +1,53 @@
+@charset 'UTF-8';
+
+#corpo p:first-child{
+	margin-top: 10px;
+}
+p{
+	text-align: center;
+	font-size: 13pt;
+}
+
+input, select, textarea, button{
+	margin: 0 8% 2% 8%;
+	width: 80%;
+    height: 35px;
+    padding: 1px 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 13pt;
+}
+
+input, textarea{
+	text-indent: 5px;
+}
+
+textarea{
+	height: 60px;
+	resize: none;
+	margin-bottom: 0;
+}
+
+select{
+	width: 84%;
+}
+
+button{
+	display: inline-block;
+	height: 40px;
+	line-height: 36px;
+	margin-top: 2% ;
+    width: 39%;
+    color: white;
+}
+
+.leftButton{
+	margin-left: 9%;
+	margin-right: 2%;
+	background-color: #1d9d74;
+}
+.rightButton{
+	margin-right: 7%;
+	margin-left: 2%;
+	background-color: #d9534f;
+}
